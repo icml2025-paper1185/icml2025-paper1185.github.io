@@ -176,6 +176,11 @@ body {
   border: 10px;
 }
 
+.three-row td{
+  width: 33%;
+  border: 10px;
+}
+
 .prompt-row{
   text-align: center;
   font-size: 15px;
