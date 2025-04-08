@@ -171,6 +171,11 @@ body {
   border: 10px;
 }
 
+.video-row td{
+  width: 20%;
+  border: 10px;
+}
+
 .prompt-row{
   text-align: center;
   font-size: 15px;

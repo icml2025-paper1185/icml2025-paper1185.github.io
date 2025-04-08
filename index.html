@@ -135,13 +135,62 @@
   </section>
 
 
+  <section class="section" id="multiview_comparison">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-4 has-text-centered" style="margin-top: 50px;">  <span style="color: #a200ff;">B-2. 360° Camera Trajectory Videos of VersatileSplat for dense inputs</span></h3>
+          <div style="text-align:center">
+            <table style="width: 100%">
+              <tbody>
+
+                <tr class="video-row">
+                  <td><video src="./static/images/multiview/ours_ours_04602.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                  <td><video src="./static/images/multiview/ours_ours_04603.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                  <td><video src="./static/images/multiview/ours_ours_04608.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                  <td><video src="./static/images/multiview/ours_ours_04612.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                  <td><video src="./static/images/multiview/ours_ours_04624.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                </tr>
+                <tr class="prompt-row">
+                  <td>Ours</td>
+                  <td>Ours</td>
+                  <td>Ours</td>
+                  <td>Ours</td>
+                  <td>Ours</td>
+               </tr>
+
+
+               <tr class="video-row">
+                <td><video src="./static/images/multiview/GRM_novel_0.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/multiview/GRM_novel_1.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/multiview/GRM_novel_2.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/multiview/GRM_novel_3.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/multiview/GRM_novel_4.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+              </tr>
+              <tr class="prompt-row">
+                <td>GRM</td>
+                <td>GRM</td>
+                <td>GRM</td>
+                <td>GRM</td>
+                <td>GRM</td>
+             </tr>
+      
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
   <section class="section" id="segment">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-full-width">
-          <h3 class="title is-4 has-text-centered" style="margin-top: 50px;">  <span style="color: #a200ff;">C. 360° camera trajectory segmentation maps of VersatileSplat</span></h3>
+          <h3 class="title is-4 has-text-centered" style="margin-top: 50px;">  <span style="color: #a200ff;">C-1. 360° camera trajectory segmentation maps of VersatileSplat</span></h3>
           <div style="text-align:center">
             <table style="width: 100%">
               <tbody>
@@ -169,6 +218,58 @@
     </div>
   </section>
 
+
+  <section class="section" id="segmentv2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-4 has-text-centered" style="margin-top: 50px;">  <span style="color: #a200ff;">C-2. Monocular segmentation results of VersatileSplat</span></h3>
+          <div style="text-align:center">
+            <table style="width: 100%">
+              <tbody>
+
+                <tr class="result-row">
+                  <td><video src="./static/images/segment/seg6.mp4" autoplay loop muted style="width: 70%; height: auto;"></video></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table style="width: 100%">
+            <tbody>
+
+
+              <tr class="video-row">
+                <td><img src="./static/images/campare/v2/input_image.png"  style="width: 100%; height: auto;"></img></td>
+                <td><video src="./static/images/campare/v2/ours.mp4" autoplay loop muted style="width: 95%; height: auto;"></video></td>
+                <td><video src="./static/images/campare/v2/Human3Diff.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/campare/v2/GRM.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/campare/v2/LGM.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+              </tr>
+
+              <tr class="video-row">
+                <td><img src="./static/images/campare/v1/input_image.png"  style="width: 100%; height: auto;"></img></td>
+                <td><video src="./static/images/campare/v1/ours.mp4" autoplay loop muted style="width: 95%; height: auto;"></video></td>
+                <td><video src="./static/images/campare/v1/Human3Diff.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/campare/v1/GRM.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+                <td><video src="./static/images/campare/v1/LGM.mp4" autoplay loop muted style="width: 100%; height: auto;"></video></td>
+              </tr>
+
+              <tr class="prompt-row">
+                <td>Input Image</td>
+                <td>Ours</td>
+                <td>Human3Diffusion</td>
+                <td>GRM</td>
+                <td>LGM</td>
+             </tr>
+
+            </tbody>
+          </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
